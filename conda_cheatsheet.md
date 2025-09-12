@@ -1,3 +1,8 @@
+### Conda Cheatsheet
+---
+I recommend using conda for managing Python environments and packages. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html), [Miniforge](https://github.com/conda-forge/miniforge) or [Anaconda](https://www.anaconda.com/products/distribution) as per your needs. Miniconda or Miniforge are preferred for most users as they are lightweight and allow you to install only the packages you need. Anaconda comes with a lot of pre-installed packages which may not be necessary for everyone.
+
+### Basic conda commands
 list all conda environments
 ```bash
 conda env list

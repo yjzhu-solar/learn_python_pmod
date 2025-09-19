@@ -42,3 +42,8 @@ Now you can run the package by executing
 ```bash
 spiceitup
 ```
+
+Note that in some cases (e.g., Krzysztof's Mac Silicon), you may need to install the packge in editable mode, which means you need to add the `-e` option to the pip install command. And you should always keep the directory (do not delete it!) where you cloned the repository when you run the command.
+```bash
+python3 -m pip install -e .
+```
